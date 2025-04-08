@@ -1,8 +1,8 @@
 ## Mvpg
-*An easy tool to send/recieve files over the internet*
+** *An easy tool to send/recieve files over the internet* **
 
 ## Basic Example
-An example to transfer a "project.mp4" file to https://10.10.0.1:80000
+An example to transfer a "project.mp4" file to "https://10.10.0.1:80000"
 ```C
 
 #include <mvpg.h>
