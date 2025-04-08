@@ -1,7 +1,7 @@
-#Mvpg
+# Mvpg
 An easy tool to send/recieve files over the internet
 
-```
+```C
 #include <mvpg.h>
 #define CLIENT_ADDRESS "https://10.10.0.1:80000"
 #define KEEP_ALIVE      MVPG_CONNECT_STABLE
