@@ -1,5 +1,5 @@
 ## Mvpg
-<table><tr><td> ***An easy tool to send/recieve files over the internet*** </td></tr></table>
+<table><tr><td> <strong><em> An easy tool to send/recieve files over the internet</em></strong> </td></tr></table>
 
 ## Basic Example
 An example to transfer a "project.mp4" file to "https://10.10.0.1:80000"
