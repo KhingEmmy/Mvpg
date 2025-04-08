@@ -14,7 +14,7 @@ int main(void) {
     mvpgObject newTransfer = mvpgInitTransfer("./project.mp4", mvpgRegular);
 
     /* transfer file to address specified by CLIENT_ADDRESS; report error if tranfer fails */
-    mvpgErrorHandler( tranferObject(newTransfer, CLIENT_ADDRESS, KEEP_ALIVE), "failed to initiate transfer");
+    mvpgErrorHandler( mvpgTranferObject(newTransfer, CLIENT_ADDRESS, KEEP_ALIVE), "failed to initiate transfer");
 
     return 0;
 }
